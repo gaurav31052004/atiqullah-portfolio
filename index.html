@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>M. Atiqullah - Software Architect & SaaS Developer</title>
   <meta name="description" content="M. Atiqullah is a Software Architect & Senior Full-Stack Developer helping startups build scalable SaaS platforms.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta property="og:title" content="Atiqullah Portfolio">
+    <meta property="og:description" content="Software Architect & SaaS Developer portfolio showcasing projects and expertise.">
+    <meta property="og:url" content="https://atiqullah-portfolio.onrender.com/">
+    <meta property="og:image" content="https://atiqullah-portfolio.onrender.com/Group%201000001688.png">
+    <link rel="canonical" href="https://atiqullah-portfolio.onrender.com/">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -28,7 +35,7 @@
     </div>
   </div>
 
-  <header class="header-transparent">
+    <header role="banner" class="header-transparent">
     <div class="container navbar">
       <a href="index.html" class="logo">
         <img src="4%201.png" alt="MA Logo" class="logo-img">
@@ -48,16 +55,17 @@
     <!-- Top Gradient Wrapper -->
     <div style="background: linear-gradient(180deg, #d8f5fc 0%, #e6f9fd 50%, #ffffff 100%); padding-bottom: 2rem;">
       <!-- Hero Section -->
-      <section class="hero">
+      <section class="hero" aria-labelledby="hero-heading">
+      <h1 id="hero-heading" class="sr-only">Hero Section</h1>
         <div class="hero-bg-shape"></div>
         <div class="container hero-content">
           <div class="hero-text">
-            <h1>Helping SaaS Startups & Founders Build Scalable, Secure, and High-Performing Systems</h1>
-            <p>I'm Atiqullah, a Software Architect & Senior Full-Stack Developer with over 20 years of experience building and scaling SaaS platforms, API-driven systems, and enterprise applications.</p>
+    <h1>Helping SaaS Startups &amp; Founders Build Scalable, Secure, and High-Performing Systems</h1>
+    <p>I'm Atiqullah, a Software Architect & Senior Full-Stack Developer with over 20 years of experience building and scaling SaaS platforms, API-driven systems, and enterprise applications.</p>
             <p>I specialize in Social Media API integrations, HL7 & HIPAA-compliant healthcare solutions, and custom Real Estate CRMs. With a strong focus on quality, security, and performance, I help startups and founders turn complex ideas into production-ready, scalable products.</p>
           </div>
           <div class="hero-image">
-            <img src="Group%201000001688.png" alt="M. Atiqullah">
+            <img src="Group%201000001688.png" width="600" height="400" fetchpriority="high" alt="M. Atiqullah">
           </div>
           
           <div class="hero-bottom-row">
@@ -66,15 +74,15 @@
             <div class="hero-stats">
               <div class="stat-item">
                 <p>Clients On<br>Worldwide</p>
-                <h3 class="text-primary" style="font-size: 2.5rem; margin-bottom: 0;">50+</h3>
+                <h2 class="text-primary" style="font-size: 2.5rem; margin-bottom: 0;">50+</h2>
               </div>
               <div class="stat-item">
                 <p>Satisfaction<br>Clients</p>
-                <h3 class="text-primary" style="font-size: 2.5rem; margin-bottom: 0;">100 %</h3>
+                <h2 class="text-primary" style="font-size: 2.5rem; margin-bottom: 0;">100 %</h2>
               </div>
               <div class="stat-item">
                 <p>Years of<br>Real-World Experience</p>
-                <h3 class="text-primary" style="font-size: 2.5rem; margin-bottom: 0;">20+</h3>
+                <h2 class="text-primary" style="font-size: 2.5rem; margin-bottom: 0;">20+</h2>
               </div>
             </div>
           </div>
@@ -99,13 +107,13 @@
               
               <div class="grid-3">
                 <div class="card" style="box-shadow: none; background: transparent;">
-                  <img src="Group%201000001676.png" alt="Leader in SaaS Architecture & API Integration" style="height: auto; border-radius: 10px;">
+                  <img src="Group%201000001676.png" alt="Leader in SaaS Architecture & API Integration" style="height: auto; border-radius: 10px;" width="360" height="360" loading="lazy">
                 </div>
                 <div class="card" style="box-shadow: none; background: transparent;">
-                  <img src="Group%201000001677.png" alt="Agile & Scalable Development Practices" style="height: auto; border-radius: 10px;">
+                  <img src="Group%201000001677.png" alt="Agile & Scalable Development Practices" style="height: auto; border-radius: 10px;" width="360" height="360" loading="lazy">
                 </div>
                 <div class="card" style="box-shadow: none; background: transparent;">
-                  <img src="Group%201000001678.png" alt="Security, Compliance & Cloud Optimization" style="height: auto; border-radius: 10px;">
+                  <img src="Group%201000001678.png" alt="Security, Compliance & Cloud Optimization" style="height: auto; border-radius: 10px;" width="360" height="360" loading="lazy">
                 </div>
               </div>
             </div>
@@ -266,11 +274,13 @@
         <h3>Contact</h3>
         <p>
           <i class="fas fa-map-marker-alt text-primary" style="margin-top: 5px;"></i>
-          <span>C 116 GF, Office No NOIDA, Uttar Pradesh INDIA - 201301</span>
+          <span class="sr-only" id="contact-heading">Contact Information</span>
+          <span>C-116 GF, OfficeOn, Sector-2 Noida, Uttar Pradesh INDIA - 201301</span>
         </p>
         <p>
           <i class="fas fa-envelope text-primary" style="margin-top: 5px;"></i>
-          <span>Atique159@Gmail.Com</span>
+          <span class="sr-only" id="email-heading">Email Address</span>
+          <span>atique159@gmail.com</span>
         </p>
       </div>
     </div>
