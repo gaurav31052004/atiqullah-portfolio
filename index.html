@@ -94,9 +94,9 @@
         <div class="container">
           <div style="display: grid; grid-template-columns: 1fr 3fr; gap: 3rem; align-items: start;">
             <!-- Left Column: 20+ Years text -->
-            <div style="padding-top: 1rem;">
+            <div class="experience-stats" style="padding-top: 1rem;">
               <h2 class="text-primary" style="font-size: 5rem; line-height: 1; margin: 0; font-weight: bold;">20+</h2>
-              <h2 style="font-size: 2.5rem; margin-top: 1rem; line-height: 1.2;">Years of<br>Real-World<br>Experience</h2>
+              <h2 style="font-size: 2.5rem; margin-top: 1rem; line-height: 1.2;">Years of <br>Real-World <br>Experience</h2>
             </div>
             
             <!-- Right Column: Text and 3 Cards -->
@@ -106,14 +106,29 @@
               </p>
               
               <div class="grid-3">
-                <div class="card" style="box-shadow: none; background: transparent;">
-                  <img src="Group%201000001676.png" alt="Leader in SaaS Architecture & API Integration" style="height: auto; border-radius: 10px;" width="360" height="360" loading="lazy">
+                <div class="card" style="box-shadow: none; background: transparent; display: flex; flex-direction: column;">
+                  <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 8px 20px rgba(0,0,0,0.1);">
+                    <img src="Group%201000001676.png" alt="Leader in SaaS Architecture & API Integration" style="width: 100%; height: auto; display: block;" width="360" height="360" loading="lazy">
+                  </div>
+                  <div style="border-left: 4px solid var(--primary-light); padding-left: 0.75rem; margin-top: 1rem; text-align: left;">
+                    <p style="font-weight: 700; font-size: 0.95rem; color: var(--primary-dark); margin: 0; line-height: 1.4;">Leader in SaaS Architecture &amp; API Integration</p>
+                  </div>
                 </div>
-                <div class="card" style="box-shadow: none; background: transparent;">
-                  <img src="Group%201000001677.png" alt="Agile & Scalable Development Practices" style="height: auto; border-radius: 10px;" width="360" height="360" loading="lazy">
+                <div class="card" style="box-shadow: none; background: transparent; display: flex; flex-direction: column;">
+                  <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 8px 20px rgba(0,0,0,0.1);">
+                    <img src="Group%201000001677.png" alt="Agile & Scalable Development Practices" style="width: 100%; height: auto; display: block;" width="360" height="360" loading="lazy">
+                  </div>
+                  <div style="border-left: 4px solid var(--primary-light); padding-left: 0.75rem; margin-top: 1rem; text-align: left;">
+                    <p style="font-weight: 700; font-size: 0.95rem; color: var(--primary-dark); margin: 0; line-height: 1.4;">Agile &amp; Scalable Development Practices</p>
+                  </div>
                 </div>
-                <div class="card" style="box-shadow: none; background: transparent;">
-                  <img src="Group%201000001678.png" alt="Security, Compliance & Cloud Optimization" style="height: auto; border-radius: 10px;" width="360" height="360" loading="lazy">
+                <div class="card" style="box-shadow: none; background: transparent; display: flex; flex-direction: column;">
+                  <div style="border-radius: 10px; overflow: hidden; box-shadow: 0 8px 20px rgba(0,0,0,0.1);">
+                    <img src="Group%201000001678.png" alt="Security, Compliance & Cloud Optimization" style="width: 100%; height: auto; display: block;" width="360" height="360" loading="lazy">
+                  </div>
+                  <div style="border-left: 4px solid var(--primary-light); padding-left: 0.75rem; margin-top: 1rem; text-align: left;">
+                    <p style="font-weight: 700; font-size: 0.95rem; color: var(--primary-dark); margin: 0; line-height: 1.4;">Security, Compliance &amp; Cloud Optimization</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -134,8 +149,8 @@
             <p>My mission is to help startups and enterprises build sustainable, high-performance software that scales globally.</p>
           </div>
           
-          <div>
-            <div class="stat-item" style="margin-bottom: 1.2rem;">
+          <div class="meet-stats">
+            <div class="stat-item">
               <p style="margin-bottom: 0.25rem; line-height: 1.25;"><strong>Satisfaction<br>Clients</strong></p>
               <h3 class="text-primary" style="font-size: 2.5rem; margin-bottom: 0; line-height: 1;">100 %</h3>
             </div>
@@ -250,7 +265,7 @@
   <footer>
     <div class="container footer-grid">
       <div class="footer-brand">
-        <h2>Let's<br>Connect</h2>
+        <h2>Let's <br class="desktop-only">Connect</h2>
         <div class="social-links">
           <a href="#"><i class="fab fa-twitter"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
